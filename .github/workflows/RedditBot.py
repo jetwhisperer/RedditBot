@@ -1,6 +1,9 @@
 # Reddit Bot by AlterEffect
 # Ensure you register your app with Reddit to get your ID & Secret for the PRAW package
 # Praw Documention: https://praw.readthedocs.io/en/latest/
+# Also ensure you register for Twilio if you want to use the text message
+# Let's get each other some money and use this link: www.twilio.com/referral/Y2VeY0
+
 
 import praw, csv
 from time import sleep
