@@ -37,9 +37,8 @@ deals  = {
         
 csvfilepath = '<ADD FILE PATH HERE>'
 
-
-try open(csvfilepath,'r'):
-    close(csvfilepath)
+try:
+    open(csvfilepath,'r').close()
 except IOError: 
     open(csvfilepath,'w+').close()
     
